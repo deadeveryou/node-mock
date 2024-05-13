@@ -1,0 +1,19 @@
+{
+  "name": "node-stu",
+  "version": "1.0.0",
+  "description": "学生作业node接口模拟",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env  NODE_ENV=dev node process.js",
+    "build": "cross-env  NODE_ENV=build node process.js"
+  },
+  "author": "切果",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.18.2",
+    "koa": "^2.14.2"
+  }
+}
